@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabletop Dice Roller</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+    <u><div id="title">Tabletop Dice Roller</div></u>
+		
+		<div>
+      <!-- D20 -->
+			<button onclick="rollD20()">D20</button>
+      
+      <!-- D8 --> 
+      <button onclick="rollD8()">D8</button>
+		</div>
+
+		<div>
+      <!-- D12 -->
+			<button onclick="rollD12()">D12</button>
+      
+      <!-- D16 -->
+      <button onclick="rollD6()">D6</button>
+		</div>
+
+		
+		<div>
+      <!-- D10 -->
+			<button onclick="rollD10()">D10</button>
+      
+      <!-- D4 -->
+      <button onclick="rollD4()">D4</button>
+		</div>
+
+		<!-- Modifier -->
+		<div>
+			Modifier:
+			<input type="number" id="diceModifier" value="0">
+		</div>
+
+		<!-- Result -->
+		<div>
+			Results: 
+      <br>
+			<textarea readonly id="diceResult"></textarea>
+		</div>
+    
+    <!--  Total  -->
+  <div>
+    Sum:
+    <span id="diceSum"></span>
+  </div>
+    
+   <div>
+    <!-- Reset Button -->
+    <button onclick="reset()">Reset</button>
+    </div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#title {
+	font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+input[type=number]{
+    width: 35px;
+} 
+
+div {
+  margin-top: 10px;
+}
+
+button {
+  width: 50px;
+  padding: 5px;
+  background: rgb(200,200,225);
+  border: none;
+  box-shadow: 2px 2px 5px rgb(25,25,25);
+}
+
+button:hover {
+  background: rgb(120,120,225);
+  box-shadow: inset 1px 1px 1px rgb(25,25,25);
+  cursor: pointer;
+}
+
+.container {
+  width: 200px;
+  background-color: rgb(235,235,240);
+  margin: auto;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(25,25,25);
+}
+
+#diceResult {
+  max-width: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+  resize: none;
+}
